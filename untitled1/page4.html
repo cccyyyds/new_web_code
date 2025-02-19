@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        /* 页面背景和布局 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        /* 文字容器样式 */
+        .text-container {
+            text-align: center; /* 文字居中 */
+            margin-top: 20px;
+            font-size: 24px; /* 字体大小 */
+            font-weight: bold; /* 加粗 */
+            color: #333; /* 字体颜色 */
+        }
+
+        /* 图片容器设置 */
+        .gallery-container {
+            display: grid; /* 使用 grid 布局 */
+            grid-template-columns: repeat(4, 1fr); /* 每行显示4张图片 */
+            gap: 15px; /* 设置图片间的间距 */
+            padding: 20px;
+            justify-items: center; /* 居中对齐每张图片 */
+        }
+
+        /* 图片样式 */
+        .gallery-container img {
+            width: 100%; /* 图片宽度占满容器 */
+            height: auto; /* 保持宽高比 */
+            max-width: 200px; /* 最大宽度为200px */
+            border-radius: 10px; /* 图片圆角 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 图片阴影效果 */
+            transition: transform 0.3s ease; /* 添加平滑过渡效果 */
+        }
+
+        /* 悬停效果 */
+        .gallery-container img:hover {
+            transform: scale(1.05); /* 悬停时稍微放大 */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 文字显示 -->
+    <div class="text-container">
+        相关分子图片
+    </div>
+
+    <!-- 图片容器 -->
+    <div class="gallery-container">
+<img src="img1/1.png" alt="Image 1">
+<img src="img1/2.png" alt="Image 2">
+<img src="img1/3.png" alt="Image 3">
+<img src="img1/4.png" alt="Image 4">
+<img src="img1/5.png" alt="Image 5">
+<img src="img1/6.png" alt="Image 6">
+<img src="img1/7.png" alt="Image 7">
+<img src="img1/8.png" alt="Image 8">
+<img src="img1/9.png" alt="Image 9">
+<img src="img1/10.png" alt="Image 10">
+<img src="img1/11.png" alt="Image 11">
+<img src="img1/12.png" alt="Image 12">
+<img src="img1/13.png" alt="Image 13">
+<img src="img1/14.png" alt="Image 14">
+<img src="img1/15.png" alt="Image 15">
+<img src="img1/16.png" alt="Image 16">
+<img src="img1/17.png" alt="Image 17">
+<img src="img1/18.png" alt="Image 18">
+<img src="img1/19.png" alt="Image 19">
+<img src="img1/20.png" alt="Image 20">
+    </div>
+
+</body>
+
+</html>
