@@ -195,6 +195,28 @@
         </div>
         <div id="container" class="map" tabindex="0" style="width: 75%;"></div>
     </div>
+
+    <!-- 跳转到药物分子界面的按钮 -->
+<!-- 跳转到药物分子界面的炫酷按钮 -->
+    <a href="../page4.html">
+        <button style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); padding: 15px 30px; background: linear-gradient(45deg, #FF6F61, #FF9A8B); color: white; border: none; border-radius: 50px; font-size: 18px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); cursor: pointer; transition: all 0.3s ease;">
+            跳转到药物分子界面
+        </button>
+    </a>
+
+    <!-- 添加按钮的hover效果 -->
+    <style>
+        button:hover {
+            transform: translateX(-50%) translateY(-5px); /* 按钮上升 */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* 更强的阴影效果 */
+            background: linear-gradient(45deg, #FF9A8B, #FF6F61); /* 背景渐变反转 */
+        }
+
+        button:active {
+            transform: translateX(-50%) translateY(2px); /* 按钮按下时下沉 */
+        }
+    </style>
+
     <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=9d888be0a8a6c62f3770ea6df72f206d&plugin=Map3D,AMap.DistrictLayer,AMap.Scale,AMap.ToolBar"></script>
     <script type="text/javascript" src="https://a.amap.com/jsapi_demos/static/demo-center/data/china-pp.js"></script>
     <script type="text/javascript">
